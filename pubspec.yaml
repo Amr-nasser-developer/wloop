@@ -1,0 +1,138 @@
+name: 'wloop' #changing it will force you to change appname in import statement inside every .dart file.
+description: Chats & Calling app
+
+version: 1.0.45+46
+publish_to: none
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  image_downloader: ^0.31.0
+  open_file: ^3.2.1
+  file_saver: ^0.0.12
+  gallery_saver: ^2.3.2
+  url_launcher: ^6.1.4
+  circular_countdown_timer: ^0.2.2
+  camera: ^0.9.8+1
+  oktoast: ^3.2.0
+  helpers: ^1.1.4
+  holding_gesture: ^1.1.0
+  flutter_emoji: ^2.4.0
+  pip_view: ^0.9.5
+  page_transition: ^2.0.9
+  wechat_assets_picker: ^7.3.2
+  image_editor: ^1.0.2
+  video_editor: ^1.4.3
+  flutter_image_compress: ^1.1.0
+  mime: ^1.0.2
+  video_compress: ^3.1.1
+  git: ^2.0.0
+  link_preview_generator: 1.2.0
+  flutter_link_previewer: ^3.0.1
+  google_mobile_ads: ^1.3.0
+  font_awesome_flutter: ^10.1.0
+  sms_autofill: ^2.2.0
+  receive_sharing_intent: ^1.4.5
+  firebase_crashlytics: ^2.8.2
+  async: ^2.8.2
+  emoji_picker_flutter: ^1.3.0
+  flutter_video_info: ^1.2.0
+  group_button: ^5.0.1
+  flutter_colorpicker: ^1.0.3
+  story_view: ^0.13.2
+  devicelocale: ^0.5.2
+  cloud_functions: ^3.2.17
+  http_auth: ^1.0.1
+  cloud_firestore:
+  flutter_cached_pdfview: ^0.4.1
+  fluttertoast: ^8.0.9
+  firebase_messaging: ^11.4.2
+  dio: ^4.0.6
+  cached_network_image: ^3.2.1
+  firebase_storage: ^10.2.18
+  device_info: ^2.0.3
+  file_picker: ^4.6.1
+  path_provider: ^2.0.11
+  path: ^1.8.1
+  flutter_sound: ^9.2.13
+  percent_indicator: ^4.2.2
+  string_validator: ^0.3.0
+  ntp: ^2.0.0
+  random_string: ^2.3.1
+  flutter_native_timezone: ^2.0.0
+  intl: ^0.17.0
+  connectivity: ^3.0.6
+  data_connection_checker_tv: ^0.3.5-nullsafety
+  http: ^0.13.4
+  provider: ^6.0.3
+  firebase_auth: ^3.3.20
+  html: ^0.15.0
+  image_picker: ^0.8.5+3
+  universal_platform: ^1.0.0+1
+  flutter_linkify: ^5.0.2
+  dotted_border: ^2.0.0+2
+  diacritic: ^0.1.3
+  image_cropper: ^2.0.3
+  contacts_service: ^0.6.3
+  share: ^2.0.4
+  scoped_model: ^1.1.0
+  local_auth: ^2.1.0
+  crypto: ^3.0.1
+  encrypt: ^5.0.1
+  localstorage: ^4.0.0+1
+  photo_view: ^0.14.0
+  launch_review: ^3.0.1
+  overlay_support: ^2.0.1
+  jiffy: ^5.0.0
+  geolocator: ^9.0.0
+  video_player: ^2.4.5
+  audio_session: ^0.1.8
+  video_thumbnail: ^0.5.0
+  audioplayers_web: ^1.0.0
+  chewie: ^1.3.4
+  media_info: ^0.10.0
+  firebase_core: ^1.18.0
+  shared_preferences: ^2.0.15
+  permission_handler: ^10.0.0
+  agora_rtc_engine: ^5.0.2
+  translator: ^0.1.7
+  audioplayers: ^1.0.1
+  flutter_local_notifications: ^9.6.1
+  flutter_secure_storage: ^5.0.2
+  package_info: ^2.0.2
+  giphy_get: ^3.1.0
+  wakelock: ^0.6.1+2
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.5
+  collection: ^1.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.2.0
+  flutter_driver:
+    sdk: flutter
+  test: ^1.16.8
+
+  flutter_launcher_icons: ^0.9.3
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/appicon/appicon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - assets/flags/
+    - lib/Services/localization/json_languages/

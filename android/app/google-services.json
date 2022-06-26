@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "570674313550",
+    "project_id": "wloop-d27f5",
+    "storage_bucket": "wloop-d27f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570674313550:android:dc28bb61e1e1b58379861f",
+        "android_client_info": {
+          "package_name": "com.example.whatsloop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570674313550-pqupumd5et6e4rej8or78iafl67pqk9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsloop",
+            "certificate_hash": "4243dc582d8d577249999d85b740fd4e18f9260b"
+          }
+        },
+        {
+          "client_id": "570674313550-bn1q04486tudtrdp6qflc5q330tteg21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlu4nLbg5I15uDXC756k7LN36Zyf3znY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570674313550-bn1q04486tudtrdp6qflc5q330tteg21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
